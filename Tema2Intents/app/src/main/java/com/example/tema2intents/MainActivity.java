@@ -1,15 +1,14 @@
-package com.example.esquema2ciclovida;
+package com.example.tema2intents;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-import  android.os.Bundle;
-import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -50,11 +49,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy()  ;
         Log.i("Ejemplo", "Estoy en on Destroy ");
-        Intent ejemplo = new Intent(this, MainActivity2.class);
+        Intent ejemplo = new Intent(this, Tema2Intents2.class);
         startActivity(ejemplo);
     };
-
-
-
 
 }
