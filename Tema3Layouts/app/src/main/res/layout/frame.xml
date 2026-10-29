@@ -42,7 +42,7 @@
     <FrameLayout
         android:layout_width="110dp"
         android:layout_height="115dp"
-        android:background="CDDC39"
+        android:background="#CDDC39"
         android:layout_gravity="right|center">
     </FrameLayout>
     <FrameLayout
