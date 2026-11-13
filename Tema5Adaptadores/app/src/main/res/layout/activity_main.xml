@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"
+    ?>
+<!-- Autor: Carlos Alberto Macias Proaño -->
+<LinearLayout xmlns:android
+    ="http://schemas.android.com/apk/res/android"
+    android:id
+        ="@+id/main"
+    android:layout_width
+        ="match_parent"
+    android:layout_height
+        ="match_parent"
+    android:background
+        ="#9E8888"
+    android:orientation="vertical"
+    >
+    <ListView
+        android:id
+            ="@+id/lista"
+        android:layout_width
+            ="match_parent"
+        android:layout_height
+            ="0dp"
+        android:layout_weight
+            ="1"
+        android:background
+            ="#673AB7"
+        android:theme
+            ="@android:style/ThemeOverlay.Material.Dark"
+        android:divider
+            ="#000000"
+        android:dividerHeight="2dp"
+        />
+    <TextView
+        android:id
+            ="@+id/texto"
+        android:layout_width
+            ="match_parent"
+        android:layout_height
+            ="75dp"
+        android:background
+            ="#000000"
+        android:padding
+            ="16dp"
+        android:text
+            ="Toca un país"
+        android:textColor
+            ="#673AB7"
+        android:textSize="22sp"
+        />
+</LinearLayout>
